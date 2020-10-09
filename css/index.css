@@ -1,0 +1,21 @@
+*{
+    background-color:blue;
+    margin: 0 10px;
+    padding: 0 1px 2px 3px;
+}
+h1{
+    color:red;
+}
+p{
+    color:yellow;
+}
+#chosen{
+    background-color:black;
+}
+.nice-border{
+    border: 3px solid grey;
+}
+p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
