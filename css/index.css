@@ -1,4 +1,4 @@
-*{
+h1,p{
     background-color:blue;
     margin: 0 10px;
     padding: 0 1px 2px 3px;
@@ -6,6 +6,7 @@
 h1{
     color:red;
 }
+
 p{
     color:yellow;
 }
@@ -18,4 +19,21 @@ p{
 p:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+div.container-flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+div p{
+    width: 33%;
+    margin: 0;
+}
+div.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+div p{
+    width: 100%;
 }
